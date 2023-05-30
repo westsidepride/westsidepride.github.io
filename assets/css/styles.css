@@ -1,3 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #CCC;
+  background-color: #111;
+  text-align: center;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Bitter', serif;
+}
 .primary-logo {
   max-width: 200px;
 }
