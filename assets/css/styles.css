@@ -26,6 +26,7 @@ a {
 .primary-logo {
   max-width: 200px;
   margin: 5em;
+  border-radius: 50%;
 }
 
 footer {
