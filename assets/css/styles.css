@@ -1,3 +1,7 @@
+:root {
+  --bs-border-color: #666;
+  --bs-secondary-color: #666;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   color: #CCC;
@@ -7,6 +11,23 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Bitter', serif;
 }
+a {
+  transition: 600ms;
+}
+.rainbow, a:hover {
+  background: red;
+  background: -webkit-linear-gradient(left, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
+  background: -o-linear-gradient(right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
+  background: -moz-linear-gradient(right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
+  background: linear-gradient(to right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .primary-logo {
   max-width: 200px;
+  margin: 5em;
+}
+
+footer {
+  color: var(--bs-secondary-color);
 }
