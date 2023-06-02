@@ -31,16 +31,60 @@ a {
   fill: transparent;
 }
 #arch text {
-  fill: #F4A1A8;
+  fill: #333;
   font-family: 'Bitter', serif;
 }
 .primary-logo {
   max-width: 200px;
-  margin: 5em;
+  margin: 5em 1em;
   border-radius: 50%;
   border: 2px #ccc solid;
 }
-
+.hero {
+  background: rgb(244,153,166);
+  background: linear-gradient(43deg, rgba(244,153,166,1) 0%, rgba(238,54,54,1) 20%, rgba(252,181,25,1) 40%, rgba(139,208,205,1) 60%, rgba(8,102,131,1) 80%, rgba(97,53,98,1) 100%);
+  height: 330px;
+  margin-bottom: 100px;
+}
 footer {
   color: var(--bs-secondary-color);
+}
+.hero {
+  height: 270px;
+  margin-bottom: 90px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 768px) {
+  .hero {
+    height: 330px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #arch {
+    margin-bottom: -290px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #arch {
+    margin-bottom: -300px;
+  }
+  .hero {
+    height: 390px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #arch {
+    margin-bottom: -350px;
+  }
+  .hero {
+    height: 430px;
+  }
 }
