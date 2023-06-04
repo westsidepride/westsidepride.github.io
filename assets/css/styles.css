@@ -13,13 +13,14 @@ h1, h2, h3, h4, h5 {
 }
 a {
   transition: 600ms;
+  text-decoration: none;
 }
-.rainbow, a:hover {
+.rainbow, a:hover, a:active, a:focus {
   background: red;
   background: -webkit-linear-gradient(left, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
   background: -o-linear-gradient(right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
   background: -moz-linear-gradient(right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
-  background: linear-gradient(to right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
+  background: linear-gradient(43deg, rgba(244,153,166,1) 0%, rgba(238,54,54,1) 20%, rgba(252,181,25,1) 40%, rgba(139,208,205,1) 60%, rgba(8,102,131,1) 80%, rgba(97,53,98,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
