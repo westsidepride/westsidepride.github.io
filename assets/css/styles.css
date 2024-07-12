@@ -61,6 +61,12 @@ header {
 .navbar-toggler {
   background-color: #333;
 }
+.sponsor-logo {
+  height: fit-content;
+  border-radius:4px;
+  background: #fff;
+  padding: 15px;
+}
 footer {
   color: var(--bs-secondary-color);
 }
