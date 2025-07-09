@@ -154,3 +154,10 @@ footer {
   font-size: .7em;
   letter-spacing: .2em;
 }
+.table, .table > :not(caption) > * > * {
+  background-color: transparent;
+  color: #fff;
+}
+.table > thead > * > * {
+  font-size: 1.5em;
+}
