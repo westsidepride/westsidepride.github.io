@@ -58,6 +58,9 @@ header {
 }
 .navbar-brand {
   font-family: 'Bitter', serif;
+  span {
+    font-style: italic;
+  }
 }
 .navbar-brand, .nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-toggler {
   color: #CCC;
