@@ -7,16 +7,60 @@ body {
   color: #CCC;
   background-color: #111;
   text-align: center;
+  line-height: 1.6;
+  min-height: 100vh;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Bitter', serif;
 }
 a, .nav-link {
-  transition: 600ms;
+  transition: 300ms;
   text-decoration: none;
 }
-.rainbow, a:hover, a:active, a:focus {
-  background: red;
+
+a:hover,
+a:focus,
+.nav-link:hover,
+.nav-link:focus {
+  /* color: #fff;
+  text-decoration: underline; */
+}
+button:focus-visible,
+a:focus-visible,
+.nav-link:focus-visible,
+.navbar-toggler:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+.visually-hidden,
+.visually-hidden-focusable {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+}
+.visually-hidden-focusable:focus,
+.visually-hidden-focusable:active {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  width: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: normal;
+}
+.rainbow,
+a:hover,
+a:focus,
+.nav-link:hover,
+.nav-link:focus {
   background: -webkit-linear-gradient(left, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
   background: -o-linear-gradient(right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
   background: -moz-linear-gradient(right, white, cyan, #FFABBA, red, orange, yellow, green, blue, purple, brown, black);
