@@ -17,20 +17,15 @@ a, .nav-link {
   transition: 300ms;
   text-decoration: none;
 }
-
-a:hover,
-a:focus,
-.nav-link:hover,
-.nav-link:focus {
-  /* color: #fff;
-  text-decoration: underline; */
-}
 button:focus-visible,
 a:focus-visible,
 .nav-link:focus-visible,
 .navbar-toggler:focus-visible {
   outline: 3px solid #fff;
   outline-offset: 3px;
+}
+img {
+  border-radius: 15px;
 }
 .visually-hidden,
 .visually-hidden-focusable {
