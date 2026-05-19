@@ -119,6 +119,11 @@ header {
     display: inline-block;
   }
 }
+.sponsors-container .row div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sponsor-logo {
   height: fit-content;
   border-radius:4px;
