@@ -213,6 +213,11 @@ footer {
   font-size: .7em;
   letter-spacing: .2em;
 }
+.our-team h4 span.pronouns {
+  letter-spacing: .1em;
+  font-size: 0.9rem;
+  margin-bottom: .5rem;
+}
 .table, .table > :not(caption) > * > * {
   background-color: transparent;
   color: #fff;
